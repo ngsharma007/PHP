@@ -1,0 +1,9 @@
+<?php
+
+$sentence = 'I am enjoying php video tutorials.';
+
+$parts = explode('.', $sentence);
+ print_r($parts);
+ 
+?>
+        
