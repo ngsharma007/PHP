@@ -1,0 +1,9 @@
+implode function: Take in array and implode it in a string so basically what it does is that take a array and joins all the string into one long sentence 
+<?php
+
+$sentence = array('I', 'am', 'Neha', 'Sharma');
+$new = implode('+', $sentence);
+echo $new;
+ 
+?>
+        
